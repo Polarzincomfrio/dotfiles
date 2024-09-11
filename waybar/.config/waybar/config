@@ -1,0 +1,61 @@
+{
+    // Bar Settings //
+    "layer": "top",
+    "height": 40,
+    "width": 2560,
+    "spacing": 5,
+    "position": "top",
+    "start_hidden": false,
+    "reload_style_on_change": true,
+
+    // Modules //
+    "modules-left": [
+    ],
+
+    "modules-center": [
+	"hyprland/workspaces",
+    ],
+
+    "modules-right": [
+	"tray",
+	"wireplumber",
+	"clock",
+    ],
+
+    // Module Settings //
+
+    "hyprland/workspaces": {
+	"active-only": false,
+	"show-special": false,
+	"special-visible-only": false,
+	"format": "{icon}",
+	"format-icons": {
+		"active": "󰮯",
+		"default": "󰊠",
+		"empty": "",
+	},
+	"persistent-workspaces": {
+             "*": 5,
+       }
+    },
+
+//    "hyprland/window": {
+//    },
+
+    "tray": {
+	"icon-size": 18,
+	"show-passive-items": false,
+	"spacing": 10,
+    },
+
+    "wireplumber": {
+	"format": "{volume}%",
+	"scroll-step": 0.2,
+    },
+
+    "clock": {
+	"format": "{:%H:%M}",
+	"format-alt": "{:%a %b %d}",
+	"tooltip": false,
+    },
+}

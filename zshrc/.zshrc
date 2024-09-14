@@ -29,10 +29,3 @@ bindkey "^[[3~" delete-char
 # Plugins #
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-
-# Yubikey OpenPGP #
-export GPG_TTY="$(tty)"
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-gpg-connect-agent updatestartuptty /bye >/dev/null
-gpgconf --launch gpg-agent

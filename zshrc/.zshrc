@@ -3,7 +3,7 @@ fastfetch
 
 
 # Aliases #
-alias hyprupdate='yay -Syu --noconfirm aquamarine-git hyprpicker-git hyprlock-git hyprutils-git hyprpaper-git hyprlang-git hyprcursor-git hyprland-git hyprwayland-scanner-git xdg-desktop-portal-hyprland-git'
+alias hyprupdate='yay -Syu --noconfirm aquamarine-git hyprpicker-git hyprlock-git hyprutils-git hyprpaper-git hypridle-git hyprlang-git hyprcursor-git hyprland-git hyprwayland-scanner-git xdg-desktop-portal-hyprland-git'
 alias ls='ls --color -lah'
 
 

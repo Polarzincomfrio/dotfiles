@@ -5,7 +5,7 @@
     },
     "display": {
 	"key": {
-	    "width": 11
+	    "width": 15
 	},
 	
 	"bar": {
@@ -27,6 +27,10 @@
 	{
 	    "type": "disk",
 	    "folders": "/"
+	},
+	{
+	    "type": "disk",
+	    "folders": "/home"
 	},
 	{
 	    "type": "colors",
